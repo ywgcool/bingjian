@@ -1,0 +1,85 @@
+/* pc端 导航栏 */
+@media (min-width: 768px) {
+  .navbar-fixed-top {
+    height: 80px;
+    background-color: transparent;
+    border-bottom: none;
+  }
+
+  .navbar-fixed-top .navbar-brand,
+  .navbar-fixed-top .navbar-nav {
+    margin-top: 15px;
+  }
+
+  #nav .navbar-brand .logo {
+    width: 189px;
+    height: 37px;
+    background: url(../img/logo-w.png) no-repeat center center / cover;
+  }
+
+  #nav .nav > li {
+    position: relative;
+  }
+
+  #nav .nav > li a {
+    color: #fff;
+    background-color: transparent;
+  }
+
+  #nav .nav > li::after {
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 0;
+    border-radius: 4px;
+    background-color: #fff;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 5px;
+    transition: 0.4s;
+  }
+
+  #nav .nav > li.active::after,
+  #nav .nav > li:hover::after {
+    width: 60px;
+  }
+
+  #nav .dropdown-menu a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .dropdown:hover > .dropdown-menu {
+    display: block;
+  }
+
+  .dropdown > .dropdown-toggle:active {
+    pointer-events: none;
+  }
+
+  #nav .dropdown-menu a:hover {
+    background-color: #00b4ed;
+  }
+
+  #nav li.active a {
+    background-color: transparent;
+  }
+  
+  #nav .dropdown-menu {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+}
+
+/* 移动端导航栏 */
+@media (max-width: 768px) {
+  #nav .navbar-brand .logo {
+    width: 153px;
+    height: 30px;
+    background: url(../img/logo.png) no-repeat center center / cover;
+  }
+
+  #my-nav li.active a {
+    color: #00b4ed;
+  }
+}
+
