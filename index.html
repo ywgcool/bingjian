@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/fullpage.css" />
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
-    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/icon.css" />
+    <link rel="stylesheet" href="./css/nav.css" />
     <link rel="stylesheet" href="./css/jiaqi.css" />
+    <link rel="stylesheet" href="./css/swiper.min.css" />
     <script src="./js/jquery-3.5.1.min.js"></script>
     <title>Document</title>
   </head>
@@ -64,33 +66,276 @@
       </div>
     </nav>
     <ul id="fullpage">
-      <li class="section" data-menuanchor="firstPage">
-        <div class="slide" id="slide1-1">
-          <div class="fp-bg"></div>
-          <h1>FULLPAGE</h1>
-          <p>创造美丽的全屏滚动网站</p>
-        </div>
-        <div class="slide" id="slide1-2">
-          <div class="fp-bg"></div>
-          <div class="intro">
-            <h1>fullPage.js</h1>
+      <!-- 第一屏 -->
+      <li class="section section-1" data-menuanchor="firstPage">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="swiper-slide-bck bck-1"></div>
+              <div class="swiper-content container-wrap">
+                <h2>冰鉴科技完成3.35亿元Pre C轮融资</h2>
+                <p>
+                  本轮融资由上海国际集团旗下的国和投资领投，云启资本等其他老股东继续跟投。本轮融资金额超过冰鉴之前3.15亿元的融资总和。
+                </p>
+                <a href="">查看详情</a>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-slide-bck bck-2"></div>
+              <div class="swiper-content container-wrap">
+                <h2>冰鉴科技2020校园招聘开始啦！</h2>
+                <p>
+                  我们将在南京大学、西安交大、电子科技大学举办校园宣讲会，也欢迎线上简历投递！有AI有梦想，有你有未来。我们在这里，等你一起鉴证未来！
+                </p>
+                <a href="">查看详情</a>
+              </div>
+            </div>
+            <div class="swiper-slide swiper-slide-center">
+              <div class="swiper-content container-wrap container-wrap">
+                <div class="col-xs-12 visible-xs">
+                  <img src="./img/banner-03.png" alt="" />
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                  <h3>AI Lab</h3>
+                  <p>
+                    引进大量毕业于卡内基梅隆大学、斯坦福大学、哥伦比亚大学、普渡大学、加州大学伯克利分校等知名院校的博士，从事深度学习、自然语言处理、知识图谱、语音识别、计算机视觉等技术研究，在人才培养、学术研究、成果转化、商业应用等方面进行深度探索。同时，加强与国内外科研院校合作，共同助推中国人工智能技术取得突破性的发展。
+                  </p>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 hidden-xs">
+                  <img src="./img/banner-03.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-slide-bck bck-4"></div>
+              <div class="swiper-content container-wrap">
+                <h2>冰鉴科技亮相人工智能国际顶级峰会IJCAI</h2>
+                <p>
+                  作为人工智能领域顶级的人工智能学术会议，2019
+                  IJCAI在澳门隆重举行。适逢IJCAI50周年与中国人工智能发展40周年，今年的IJCAI备受瞩目，超过3000名AI学者与业界领袖云集中国澳门，共同探讨人工智能的现状和未来。冰鉴科技创始人、董事长兼CEO顾凌云博士受邀发表演讲，分享了冰鉴科技在AI领域的探索与实践。
+                </p>
+                <a href="">查看详情</a>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-slide-bck bck-5"></div>
+              <div class="swiper-content container-wrap">
+                <h2>冰鉴科技荣登世界人工智能大会“中国AI商业落地初创企业100强”</h2>
+                <p>
+                  近日，由国家发改委、科技部、工信部、网信办、中国科学院、中国工程院和上海市人民政府共同主办的2019世界人工智能大会在上海召开。经过激烈角逐，人工智能风控专家——冰鉴科技脱颖而出，登上中国AI商业落地初创企业百强榜。
+                </p>
+                <a href="">查看详情</a>
+              </div>
+            </div>
           </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
         </div>
-        <div class="slide" id="slide1-3">
-          <div class="fp-bg"></div>
-          <div class="intro">
-            <h1>Free support</h1>
-            <p>Extension issues are supported at no extra cost!</p>
+      </li>
+      <!-- 第二屏 -->
+      <li class="section section-2" data-menuanchor="secondPage">
+        <div class="container-wrap">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+              <h2>核心优势</h2>
+              <div class="section-2-content">
+                <p>
+                  冰鉴拥有优秀的机器学习建模算法，我们对机器学习和深度学习在金融科技领域的应用展开不断探索与追求。目前在机器学习方面的技术储备（指我司模型团队自主开发的核心算法的代码）包括：
+                </p>
+                <ul>
+                  <li>个人与企业风控产品</li>
+                  <li>银行与新金融风控产品</li>
+                  <li>标准与定制化产品</li>
+                  <li>智能风控平台产品</li>
+                  <li>模型系统产品</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+              <div class="device-wrap">
+                <div class="device-on">
+                  <img src="./img/device0.png" alt="" />
+                </div>
+                <div class="device-under">
+                  <img src="./img/device1.png" alt="" />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </li>
-      <li class="section" data-menuanchor="secondPage"><a href="#secondPage">Second section</a></li>
-      <li class="section" data-menuanchor="thirdPage"><a href="#thirdPage">Third section</a></li>
-      <li class="section" data-menuanchor="fourthPage"><a href="#fourthPage">Fourth section</a></li>
+      <!-- 第三屏 -->
+      <li class="section section-3" data-menuanchor="thirdPage">
+        <div class="row container-wrap">
+          <h2>冰鉴产品</h2>
+          <div class="swiper-container">
+            <p>独立第三方的风控模型&解决方案。</p>
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <svg id="icon-xinyongqia" viewBox="0 0 1024 1024">
+                  <path d="M512 512m-480 0a480 480 0 1 0 960 0 480 480 0 1 0-960 0Z" fill="#FFE8CD"></path>
+                  <path
+                    d="M224 364.8c0-25.6 19.2-44.8 51.2-44.8h480c25.6 0 51.2 19.2 51.2 44.8v288c0 25.6-19.2 44.8-51.2 44.8H275.2c-25.6 0-51.2-19.2-51.2-44.8V364.8z"
+                    fill="#FF9D1C"
+                  ></path>
+                  <path d="M224 390.4h576v70.4h-576z" fill="#FFCA83"></path>
+                  <path
+                    d="M633.6 608c0-12.8 12.8-25.6 25.6-25.6h70.4c12.8 0 25.6 12.8 25.6 25.6v25.6c0 12.8-12.8 25.6-25.6 25.6h-70.4c-12.8 0-25.6-12.8-25.6-25.6v-25.6z"
+                    fill="#FFFFFF"
+                  ></path>
+                </svg>
+                <p>个人与企业风控产品</p>
+              </div>
+              <div class="swiper-slide">
+                <svg id="icon-daikuan" viewBox="0 0 1024 1024">
+                  <path d="M512 512m-480 0a480 480 0 1 0 960 0 480 480 0 1 0-960 0Z" fill="#E5F1FF"></path>
+                  <path
+                    d="M512 435.2m-211.2 0a211.2 211.2 0 1 0 422.4 0 211.2 211.2 0 1 0-422.4 0Z"
+                    fill="#A9D2FF"
+                  ></path>
+                  <path
+                    d="M512 435.2c-6.4 0-6.4 0-12.8-6.4l-64-89.6c-6.4-6.4 0-12.8 0-19.2 6.4-6.4 12.8 0 19.2 0l64 89.6c6.4 6.4 0 12.8 0 19.2 0 6.4-6.4 6.4-6.4 6.4z"
+                    fill="#FFFFFF"
+                  ></path>
+                  <path
+                    d="M512 556.8c-6.4 0-12.8-6.4-12.8-12.8v-128l70.4-89.6c0-6.4 12.8-6.4 12.8 0 6.4 6.4 6.4 12.8 0 19.2l-64 83.2v115.2c6.4 6.4 0 12.8-6.4 12.8z"
+                    fill="#FFFFFF"
+                  ></path>
+                  <path
+                    d="M556.8 435.2H467.2c-6.4 0-12.8-6.4-12.8-12.8s6.4-12.8 12.8-12.8h89.6c6.4 0 12.8 6.4 12.8 12.8s-6.4 12.8-12.8 12.8zM556.8 480H467.2c-6.4 0-12.8-6.4-12.8-12.8s6.4-12.8 12.8-12.8h89.6c6.4 0 12.8 6.4 12.8 12.8s-6.4 12.8-12.8 12.8z"
+                    fill="#FFFFFF"
+                  ></path>
+                  <path
+                    d="M793.6 595.2c-12.8-25.6-44.8-25.6-64-19.2l-57.6 12.8c0 19.2-6.4 32-25.6 51.2-38.4 32-108.8 38.4-160 38.4h-57.6c-12.8 0-19.2-12.8-12.8-19.2 0-12.8 12.8-19.2 19.2-12.8 38.4 6.4 147.2 6.4 185.6-25.6 12.8-19.2 19.2-25.6 19.2-38.4-12.8-12.8-32-19.2-44.8-19.2H236.8c-6.4 0-12.8 6.4-12.8 12.8v134.4c0 6.4 6.4 12.8 12.8 12.8 96 32 217.6 70.4 288 70.4h25.6c44.8-6.4 198.4-108.8 230.4-134.4 12.8-12.8 19.2-38.4 12.8-64z"
+                    fill="#72AEFD"
+                  ></path>
+                </svg>
+                <p>银行与新金融风控产品</p>
+              </div>
+              <div class="swiper-slide">
+                <svg id="icon-gengduo" viewBox="0 0 1024 1024">
+                  <path d="M512 512m-480 0a480 480 0 1 0 960 0 480 480 0 1 0-960 0Z" fill="#F6F6F6"></path>
+                  <path
+                    d="M249.6 294.4c0-25.6 19.2-44.8 44.8-44.8h166.4c32 0 51.2 19.2 51.2 44.8v166.4c0 32-19.2 51.2-44.8 51.2H294.4c-25.6 0-44.8-19.2-44.8-44.8V294.4zM556.8 345.6c0-25.6 19.2-51.2 44.8-51.2h121.6c25.6 0 51.2 19.2 51.2 51.2v121.6c0 25.6-19.2 51.2-51.2 51.2H601.6c-25.6 0-44.8-25.6-44.8-51.2V345.6zM556.8 608c0-25.6 19.2-51.2 51.2-51.2h121.6c25.6 0 51.2 19.2 51.2 44.8v64l-108.8 108.8h-64c-25.6 0-44.8-19.2-44.8-51.2V608z"
+                    fill="#BFBFBF"
+                  ></path>
+                  <path d="M665.6 716.8c0-25.6 19.2-44.8 44.8-44.8h64l-108.8 108.8v-64z" fill="#FFFFFF"></path>
+                  <path
+                    d="M294.4 601.6c0-25.6 19.2-51.2 51.2-51.2h121.6c25.6 6.4 44.8 25.6 44.8 51.2v121.6c0 25.6-19.2 51.2-51.2 51.2H339.2c-25.6 0-51.2-19.2-51.2-51.2V601.6z"
+                    fill="#BFBFBF"
+                  ></path>
+                  <path d="M294.4 294.4h166.4V320H294.4zM294.4 345.6h96v25.6H294.4z" fill="#FFFFFF"></path>
+                </svg>
+                <p>标准与定制化产品</p>
+              </div>
+              <div class="swiper-slide">
+                <svg id="icon-shoujichongzhi" viewBox="0 0 1024 1024">
+                  <path d="M512 512m-480 0a480 480 0 1 0 960 0 480 480 0 1 0-960 0Z" fill="#FFE8CD"></path>
+                  <path
+                    d="M678.4 780.8H345.6c-25.6 0-44.8-19.2-44.8-44.8V249.6c0-25.6 19.2-44.8 44.8-44.8h332.8c25.6 0 44.8 19.2 44.8 44.8v486.4c0 25.6-19.2 44.8-44.8 44.8z"
+                    fill="#FF9D1C"
+                  ></path>
+                  <path
+                    d="M633.6 608H390.4c-19.2 0-32-12.8-32-32V294.4c0-19.2 12.8-32 32-32H640c19.2 0 32 12.8 32 32V576c-6.4 19.2-19.2 32-38.4 32z"
+                    fill="#FFCA83"
+                  ></path>
+                  <path d="M512 697.6m-38.4 0a38.4 38.4 0 1 0 76.8 0 38.4 38.4 0 1 0-76.8 0Z" fill="#FFFFFF"></path>
+                </svg>
+                <p>模型系统产品</p>
+              </div>
+              <div class="swiper-slide">
+                <svg id="icon-suiyicun" viewBox="0 0 1024 1024">
+                  <path d="M512 512m-480 0a480 480 0 1 0 960 0 480 480 0 1 0-960 0Z" fill="#E9E8FF"></path>
+                  <path d="M467.2 332.8l230.4-83.2 44.8 83.2zM384 332.8l96-83.2 38.4 51.2-64 32z" fill="#C6C9FF"></path>
+                  <path
+                    d="M300.8 755.2c-25.6 0-51.2-25.6-51.2-51.2V384c0-25.6 25.6-51.2 51.2-51.2h428.8c25.6 0 51.2 25.6 51.2 51.2v313.6c0 25.6-25.6 51.2-51.2 51.2l-428.8 6.4z"
+                    fill="#8880FE"
+                  ></path>
+                  <path
+                    d="M761.6 608H704c-25.6 0-51.2-19.2-51.2-51.2v-19.2c0-25.6 25.6-51.2 51.2-51.2h57.6c25.6 0 51.2 19.2 51.2 51.2v25.6c0 25.6-19.2 44.8-51.2 44.8z"
+                    fill="#C6C9FF"
+                  ></path>
+                </svg>
+                <p>IT系统产品</p>
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </li>
+      <!-- 第四屏 -->
+      <li class="section section-4" data-menuanchor="fourthPage">
+        <div class="container-fluid container-wrap">
+          <h2>关于我们</h2>
+          <div class="row about-items">
+            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
+              <a href="">
+                <div class="about-icon"></div>
+                <p>冰鉴简介</p>
+              </a>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
+              <a href="">
+                <div class="about-icon"></div>
+                <p>管理团队</p>
+              </a>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
+              <a href="">
+                <div class="about-icon"></div>
+                <p>新闻中心</p>
+              </a>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
+              <a href="">
+                <div class="about-icon"></div>
+                <p>加入我们</p>
+              </a>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
+              <a href="">
+                <div class="about-icon"></div>
+                <p>合作通道</p>
+              </a>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
+              <a href="">
+                <div class="about-icon"></div>
+                <p>联系我们</p>
+              </a>
+            </div>
+          </div>
+          <div class="row about-footer">
+            <div class="col-md-4 col-sm-4 col-xs-12">
+              <p><span class="iconfont icon-dianhua"></span>+86-21-68592015</p>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-12">
+              <p><span class="iconfont icon-youjian"></span>info@icekredit.com</p>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-12">
+              <p><span class="iconfont icon-dizhi"></span>上海浦东新区商城路618号良友大厦4楼B207</p>
+            </div>
+          </div>
+          <div class="visible-xs">
+            <p>微信公众号：ice_kredit</p>
+            <p>扫一扫关注我们</p>
+            <img src="img/Icekredit-QRcode.png" alt="" />
+          </div>
+          <div class="row about-copyright">
+            <p>沪公网安备 31011502400399号</p>
+            <p>Copyright ©2015-2020 上海冰鉴信息科技有限公司 沪ICP备15035333号-1</p>
+          </div>
+        </div>
+      </li>
     </ul>
 
     <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/scrolloverflow.min.js"></script>
     <script src="./js/fullpage.min.js"></script>
+    <script src="./js/swiper.min.js"></script>
     <script src="./js/jiaqi.js"></script>
   </body>
 </html>
