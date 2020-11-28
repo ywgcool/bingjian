@@ -1,0 +1,106 @@
+/* @media (max-width: @screen-xs-max) { 
+  
+ }
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) { 
+  
+ }
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) { 
+  
+ } */
+
+/* .ice-product .container {
+  width: 1170px;
+  min-width: 1170px;
+} */
+.ice-product {
+  padding-top: 50px;
+  padding-bottom: 100px;
+  transition: all .6s;
+  font-size: 16px;
+  line-height: 28px;
+}
+.ice-product p {
+  margin-bottom: 30px;
+}
+.ice-product p b {
+  font-weight: 700;
+  color: #00b4ed;
+}
+.ice-product .container ul#tab.nav-tabs {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 30px 0;
+}
+.ice-product .container img {
+  width: 100%;
+  height: auto;
+}
+.ice-product .container #tab li>a {
+  text-decoration: none;
+}
+
+.ice-product .container #tab li>a:hover {
+  background-color: #eeeeee;
+}
+.ice-product .container #tab .active>a:hover {
+  background-color: #00a0d0;
+}
+
+  
+
+  @media (min-width: 992px){
+    .ice-product .container #tab li>a {
+      display: block;
+      padding: 10px 15px;
+      height: 55px;
+      line-height: 35px;
+      color: #666;
+      border: none;
+      border-radius: 0;
+      font-size: 18px;
+      transition: all 0.4s;
+    }
+    .ice-product .container #tab .active>a {
+      color: #fff;
+      cursor: default;
+      background-color: #00b4ed;
+      border: 0;
+      border-bottom-color: transparent;
+      font-size: 18px;
+  }
+  }
+  @media (min-width: 768px) and (max-width: 992px){
+    
+  }
+  @media (max-width: 992px){
+    .ice-product .container #tab li>a {
+      display: block;
+      padding: 10px 15px;
+      height: 40px;
+      line-height: 20px;
+      color: #666;
+      border: none;
+      border-radius: 0;
+      font-size: 14px;
+      transition: all 0.4s;
+    }
+    .ice-product .container #tab .active>a {
+      color: #fff;
+      cursor: default;
+      background-color: #00b4ed;
+      border: 0;
+      border-bottom-color: transparent;
+      font-size: 14px;
+    }
+  }
+  @media (max-width: 353px){
+    .ice-product .container #tab.nav {
+      display: block;
+    }
+    .ice-product .container #tab li>a {
+      width: 60%;
+      height: auto;
+      margin: 0 auto;
+      text-align: center;
+    }
+  }
