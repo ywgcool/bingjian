@@ -7,9 +7,11 @@ body,div,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,form,input,textarea,select,span,a,im
 body {
     background-size: cover;
     font-family: 'PingFangTC-light', 'Lantinghei SC', 'PingFang SC', 'Microsoft Yahei', 'Hiragino Sans GB', 'Microsoft Sans Serif', 'WenQuanYi Micro Hei', sans-serif;
+    font-family: "SourceHanSansCN",Candara,"Lucida Sans Unicode","Lucida Grande",sans-serif !important;
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
+    color: #666;
 }
 
 a {
