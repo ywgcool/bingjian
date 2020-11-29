@@ -62,4 +62,25 @@ a.button-apply.button-apply-b:hover {
   .ice-product {
     font-size: 12px;
   }
+  table thead th,table tbody td {
+    padding: 5px;
+    line-height: 14px;
+  }
+}
+.thead3 tr th:nth-child(2) {
+  width: 80%;
+}
+.tbody3 tr:nth-child(odd) td:nth-child(odd){
+  background-color: #f3f6f7;
+}
+.tbody3 tr:nth-child(odd) td:nth-child(even){
+  background-color: #de814b;
+  color: #fff;
+}
+.tbody3 tr:nth-child(even) td:nth-child(odd){
+  background-color: #e3e6e6;
+}
+.tbody3 tr:nth-child(even) td:nth-child(even){
+  background-color: #d6753e;
+  color: #fff;
 }
