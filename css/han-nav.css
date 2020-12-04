@@ -1,0 +1,11 @@
+#nav {
+  position: relative;
+  border-bottom: 1px solid transparent;
+  margin-bottom: 0;
+}
+@media (max-width: 767px){
+  #nav {
+    position: fixed;
+    background-color: rgba(0,0,0,0.8);
+  }
+}

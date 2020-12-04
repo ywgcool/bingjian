@@ -1,0 +1,137 @@
+*{
+    margin: 0;padding: 0;
+}
+.head{
+    position: relative;
+    background-image: url(../img/bk-partner.jpg);
+    background-position:center center;
+    background-size: 100% 700px;
+    width: 100%;
+    height: 400px;
+}
+.head>p{
+    font-size: 50px;
+    position: absolute;
+    left: 43%;
+    top: 40%;
+    color: whitesmoke;
+}
+.head>h3{
+    position: absolute;
+    left: 42%;
+    top: 58%;
+    color: whitesmoke;
+    font-weight: lighter;
+}
+
+
+.introduce{
+    margin-top: 80px;
+    width: 100%;
+    border-bottom: 1px solid darkgray;
+}
+.introduce h2{
+    width: 120px;
+    margin-left: 5%;
+    margin-bottom: 0;
+    border-bottom: 1px solid #007AFF;
+}
+
+.choose-big{
+    position: relative;
+    top: 50px;
+    width: 100%;
+    height: 600px;
+    background-color: ghostwhite;
+}
+.choose-big>p {
+    position: absolute;
+    top: 50px;
+    width: 70%;
+    margin-left: 8%;
+    font-size: 17px;
+}
+.choose-big .choose-sm{
+    position: absolute;
+    top: 100px;
+    width: 80%;
+    /* background-color: red; */
+    margin-left: 8%;
+}
+.choose-big .choose-sm>span{
+    position: absolute;
+    top: 10px;
+    font-size: 18px;
+}
+#myTab{
+    margin-left: 40%;
+}
+#myTab li{
+    width: 30%;
+    height: 44px;
+    margin-left: 5px;
+    background-color: whitesmoke;
+}
+#myTab li:hover{
+    color: #00a0d0 ;
+}
+#myTab .active a:nth-child(1){
+    background-color: #00a0d0;
+    color: white;
+}
+
+#myTabContent{
+    position: relative;
+}
+#myTabContent div p{
+    margin-top: 30px;
+}
+#myTabContent div p span{
+    font-size: 18px;
+}
+#myTabContent div p input{
+    height: 40px;
+    width: 50%;
+}
+#myTabContent div p input:focus{
+    border: 1px solid #00a0d0;
+}
+#myTabContent div p input,#myTabContent div p textarea{
+    
+    position: absolute;
+    left: 40%;
+}
+.choose-big button{
+    border: 0px;
+    position: absolute;
+    bottom: 10px;
+    left: 40%;
+    width: 25%;
+    height: 50px;
+    background-color: #00a0d0;
+    border-radius: 50px;
+}
+
+
+.content div{
+    border: 1px solid gainsboro;
+    /* background-color: red; */
+    /* margin-left: 2%; */
+    /* width: 400px; */
+    margin-top: 20px;
+    height: 100px;
+    display: inline-block;
+    /* padding: 0 20px; */
+    transform: scale(0.9);
+}
+.content div img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
