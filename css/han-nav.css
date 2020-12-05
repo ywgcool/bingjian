@@ -6,7 +6,7 @@
 @media (max-width: 767px){
   #nav {
     position: fixed;
-    /* background-color: rgba(0,0,0,0.8); */
+    background-color: #222;
   }
 }
 
