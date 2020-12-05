@@ -3,6 +3,7 @@ aside.ice-product-aside {
   position: fixed;
   bottom: 70px;
   right: 10px;
+  z-index: 9999999;
 }
 .aside-box {
   width: 48px;
