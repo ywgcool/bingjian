@@ -98,7 +98,7 @@
       display: block;
     }
     .ice-product .container #tab li>a {
-      width: 60%;
+      width: auto;
       height: auto;
       margin: 0 auto;
       text-align: center;
