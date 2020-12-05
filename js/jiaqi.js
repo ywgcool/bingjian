@@ -67,3 +67,13 @@ new Swiper('.section-3 .swiper-container', {
     deviecOn.style.width = e.offsetX + 'px'
   }
 })()
+
+$('#my-nav').on('hidden.bs.collapse', function () {
+  // do something…
+  $('#nav').removeClass('nav-cd-bk')
+})
+
+$('#my-nav').on('show.bs.collapse', function () {
+  // do something…
+  $('#nav').addClass('nav-cd-bk')
+})

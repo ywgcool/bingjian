@@ -64,7 +64,7 @@
   #nav li.active a {
     background-color: transparent;
   }
-  
+
   #nav .dropdown-menu {
     background-color: rgba(0, 0, 0, 0.6);
   }
@@ -72,14 +72,62 @@
 
 /* 移动端导航栏 */
 @media (max-width: 768px) {
+  #nav {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+  #nav.nav-cd-bk {
+    background-color: #222;
+  }
+
+  #nav .navbar-nav {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
   #nav .navbar-brand .logo {
     width: 153px;
     height: 30px;
     background: url(../img/logo.png) no-repeat center center / cover;
   }
 
-  #my-nav li.active a {
+  .navbar-collapse .dropdown-menu {
+    padding: 0;
+    background-color: #000 !important;
+  }
+
+  #nav li[data-menuanchor].active > a {
     color: #00b4ed;
+    background-color: transparent;
+  }
+
+  #nav .icon-bar {
+    transition: 0.4s;
+  }
+
+  #nav [aria-expanded='true'] .icon-bar:nth-child(1) {
+    transform: translate(0px, 6px) rotate(135deg);
+  }
+
+  #nav [aria-expanded='true'] .icon-bar:nth-child(2) {
+    transform: translate(0px, 0px) rotate(45deg);
+  }
+
+  #nav [aria-expanded='true'] .icon-bar:nth-child(3) {
+    transform: translateY(10px);
+    opacity: 0;
+  }
+
+  .navbar-fixed-bottom .navbar-collapse,
+  .navbar-fixed-top .navbar-collapse {
+    max-height: fit-content;
+  }
+
+  #nav .dropdown-menu li.active > a {
+    background-color: transparent;
   }
 }
 
+#nav .dropdown-menu li.active > a {
+  color: #00b4ed;
+}

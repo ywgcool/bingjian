@@ -12,3 +12,13 @@ $('.aside-box .goTop').click(function(){
     behavior: 'smooth'
   })
 })
+
+$('#my-nav').on('hidden.bs.collapse', function () {
+  // do something…
+  $('#nav').removeClass('nav-cd-bk')
+})
+
+$('#my-nav').on('show.bs.collapse', function () {
+  // do something…
+  $('#nav').addClass('nav-cd-bk')
+})
