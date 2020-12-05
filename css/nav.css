@@ -72,6 +72,14 @@
 
 /* 移动端导航栏 */
 @media (max-width: 768px) {
+  #nav {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+  #nav.nav-cd-bk {
+    background-color: #222;
+  }
+
   #nav .navbar-nav {
     margin-top: 0;
     margin-bottom: 0;
