@@ -1,8 +1,11 @@
+#nav {
+  background-color: transparent;
+}
+
 /* pc端 导航栏 */
 @media (min-width: 768px) {
   .navbar-fixed-top {
     height: 80px;
-    background-color: transparent;
     border-bottom: none;
   }
 
