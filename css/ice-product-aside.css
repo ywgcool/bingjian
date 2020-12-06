@@ -17,6 +17,7 @@ aside.ice-product-aside {
   background: #00b4ed;
   color: #fff;
   cursor: pointer;
+  list-style: none;
 }
 .aside-box li:last-child {
   margin-top: 3px;
