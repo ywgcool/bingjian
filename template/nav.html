@@ -1,0 +1,66 @@
+<!-- 导航栏 -->
+<nav id="nav" class="navbar navbar-inverse navbar-fixed-top">
+  <div class="nav-item-wrap container-fluid">
+    <div class="navbar-header">
+      <!-- 移动端按钮 -->
+
+      <button class="navbar-toggle" data-toggle="collapse" data-target="#my-nav">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <!-- logo -->
+      <a href="#" class="navbar-brand">
+        <!-- <img class="logo" src="/public/img/logo-w.png" alt="" /> -->
+        <div class="logo"></div>
+      </a>
+    </div>
+    <div id="my-nav" class="collapse navbar-collapse">
+      <!-- 导航栏 -->
+      <ul class="nav navbar-nav navbar-right">
+        <li data-menuanchor="firstPage"><a href="/index#firstPage">首页</a></li>
+        <li data-menuanchor="secondPage"><a href="/index#secondPage">核心优势</a></li>
+        <li data-menuanchor="thirdPage"
+          {{if title=='个人与企业风控产品'||title=='银行与新金融风控产品'||title=='标准化与定制化产品'||title=='智能风控平台产品'||title=='模型系统产品'}} 
+            class="active dropdown" 
+          {{else}}
+            class="dropdown" 
+          {{/if}}
+        >
+          <a href="/index#thirdPage" id="products" data-toggle="dropdown">冰鉴产品 <span class="caret"></span></a>
+
+          <!-- 冰鉴产品 -->
+
+          <ul class="dropdown-menu" aria-labelledby="products">
+            <li {{if title=='个人与企业风控产品'}} class="active" {{/if}}><a href="/个人与企业风控产品">个人与企业风控产品</a></li>
+            <li {{if title=='银行与新金融风控产品'}} class="active" {{/if}}><a href="/银行与新金融风控产品">银行与新金融风控产品</a></li>
+            <li {{if title=='标准化与定制化产品'}} class="active" {{/if}}><a href="/标准化与定制化产品">标准与定制化产品</a></li>
+            <li {{if title=='智能风控平台产品'}} class="active" {{/if}}><a href="/智能风控平台产品">智能风控平台产品</a></li>
+            <li {{if title=='模型系统产品'}} class="active" {{/if}}><a href="/模型系统产品">模型系统产品</a></li>
+          </ul>
+        </li>
+        <li 
+          data-menuanchor="fourthPage"
+          {{if title=='冰鉴简介' || title=='新闻中心'||title=='管理团队'||title=='加入我们'||title=='合作通道'||title=='联系我们'}} 
+            class="active dropdown" 
+          {{else}}
+            class="dropdown" 
+          {{/if}}
+        >
+          <a href="#fourthPage" id="about" data-toggle="dropdown">关于我们 <span class="caret"></span></a>
+
+          <!-- 关于我们 -->
+
+          <ul class="dropdown-menu" aria-labelledby="about">
+            <li {{if title=='冰鉴简介'}} class="active" {{/if}} ><a href="/冰鉴简介">冰鉴简介</a></li>
+            <li {{if title=='新闻中心'}} class="active" {{/if}}><a href="/新闻中心">新闻中心</a></li>
+            <li {{if title=='管理团队'}} class="active" {{/if}}><a href="/管理团队">管理团队</a></li>
+            <li {{if title=='加入我们'}} class="active" {{/if}}><a href="/加入我们">加入我们</a></li>
+            <li {{if title=='合作通道'}} class="active" {{/if}}><a href="/合作通道">合作通道</a></li>
+            <li {{if title=='联系我们'}} class="active" {{/if}}><a href="/联系我们">联系我们</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/public/img/icekredit.ico" type="image/x-icon" />
+    {{block 'css'}}
+    <!-- css坑 -->
+    {{/block}}
+    <title>{{block 'title'}}上海冰鉴信息科技有限公司官网{{/block}}</title>
+  </head>
+  <body>
+
+    <!-- 包含导航栏 -->
+    {{ include './nav.html' }}
+
+    {{block 'main'}}
+    <!-- 主体坑 -->
+    {{/block}}
+
+    <!-- 包含侧栏 -->
+    {{ include './aside.html' }}
+
+    {{block 'script'}}
+    <!-- js坑 -->
+    {{/block}}
+  </body>
+</html>

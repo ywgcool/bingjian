@@ -1,0 +1,7 @@
+@media (min-width: 767px) {
+  #nav {
+    position: relative;
+    border-bottom: 1px solid transparent;
+    margin-bottom: 0;
+  }
+}

@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.ice-product-header1 {
+    background-image: url(../img/bk-about.jpg) !important;
+}
+
+.lead {
+  padding: 30px 50px;
+  margin: 15px 0 35px;
+  font-size: 18px;
+  color: darkgray;
+  background-color: #F8F8F9;
+}
+.content p {
+  color: gray;
+}
+.content p span {
+  color: royalblue;
+}
+
+footer {
+  margin-top: 150px;
+}

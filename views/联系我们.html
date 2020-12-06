@@ -1,0 +1,243 @@
+{{extend '../template/layout.html'}} 
+
+{{block 'title'}}联系我们-上海冰鉴信息科技有限公司官网{{/block}} 
+
+{{block 'css'}}
+<link rel="stylesheet" href="/public/css/ice-product-header.css" />
+<link rel="stylesheet" href="/public/css/ice-product-footer.css" />
+<link rel="stylesheet" href="/public/css/ice-product-tab.css" />
+<link rel="stylesheet" href="/public/css/icon.css" />
+<link rel="stylesheet" href="/public/css/common.css" />
+<link rel="stylesheet" href="/public/css/ice-product-aside.css" />
+<link rel="stylesheet" href="/public/css/bootstrap.min.css" />
+<link rel="stylesheet" href="/public/css/nav.css" />
+<link rel="stylesheet" href="/public/css/ljq-contact-us.css" />
+{{/block}} 
+
+{{block 'main'}}
+<!-- 导航下头部 -->
+<header class="ice-product-header">
+  <div class="ice-product-header1">
+    <h2>联系我们</h2>
+    <p>Contact us</p>
+  </div>
+</header>
+
+<main class="ice-product">
+  <div class="container">
+    <div class="contact-title">
+      <span>邮件联系</span>
+    </div>
+    <div class="row contact-block">
+      <div class="col-md-6 col-sm-6 col-xs-12">
+        <div>
+          <p>联系我们</p>
+          <span>info@icekredit.com</span>
+        </div>
+      </div>
+      <div class="col-md-6 col-sm-6 col-xs-12">
+        <div>
+          <p>加入我们</p>
+          <span>info@icekredit.com</span>
+        </div>
+      </div>
+    </div>
+    <div class="contact-title">
+      <span>各地分公司</span>
+    </div>
+    <ul id="tab" class="nav nav-tabs">
+      <li class="active">
+        <a id="tabStandard" href="#shanghai" data-toggle="tab" aria-expanded="true">上海</a>
+      </li>
+      <li class="">
+        <a id="tabCustom" href="#nanjing" data-toggle="tab" aria-expanded="false">南京</a>
+      </li>
+      <li class="">
+        <a id="tabCustom" href="#chengdu" data-toggle="tab" aria-expanded="false">成都</a>
+      </li>
+      <li class="">
+        <a id="tabCustom" href="#beijing" data-toggle="tab" aria-expanded="false">北京</a>
+      </li>
+      <li class="">
+        <a id="tabCustom" href="#shenzhen" data-toggle="tab" aria-expanded="false">深圳</a>
+      </li>
+      <li class="">
+        <a id="tabCustom" href="#changzhou" data-toggle="tab" aria-expanded="false">常州</a>
+      </li>
+    </ul>
+    <div id="TabContent" class="tab-content row">
+      <div id="shanghai" class="tab-pane fade active in row">
+        <div class="col-md-5 col-sm-4 col-xs-12">
+          <p>
+            <span>上海冰鉴信息科技有限公司</span>
+          </p>
+          <p>
+            <span>+86-21-68592015</span>
+          </p>
+          <p>
+            <span>上海浦东新区商城路618号良友大厦4楼B207</span>
+          </p>
+          <p>
+            <span>邮编：200120</span>
+          </p>
+        </div>
+        <div class="col-md-7 col-sm-8 col-xs-12">
+          <div id="mapShanghai"></div>
+          <div class="map-info">
+            <div>
+              <div>上海冰鉴信息科技有限公司</div>
+              <div class="map-info-sub">上海浦东新区商城路618号良友大厦4楼B207</div>
+              <div class="map-go">去这里</div>
+            </div>
+          </div>
+          <div class="map-around">查看周边</div>
+        </div>
+      </div>
+      <div id="nanjing" class="tab-pane fade in">
+        <div class="col-md-5 col-sm-4 col-xs-12">
+          <p>
+            <span>南京冰鉴信息科技有限公司</span>
+          </p>
+          <p>
+            <span>+86-21-68592015</span>
+          </p>
+          <p>
+            <span>南京市鼓楼区中山北路99号11楼1106室</span>
+          </p>
+          <p>
+            <span>邮编：210009</span>
+          </p>
+        </div>
+        <div class="col-md-7 col-sm-8 col-xs-12">
+          <div id="mapNanjing"></div>
+          <div class="map-info">
+            <div>
+              <div>南京冰鉴信息科技有限公司</div>
+              <div class="map-info-sub">南京市鼓楼区中山北路99号11楼1106室</div>
+              <div class="map-go">去这里</div>
+            </div>
+          </div>
+          <div class="map-around">查看周边</div>
+        </div>
+      </div>
+      <div id="chengdu" class="tab-pane fade in">
+        <div class="col-md-5 col-sm-4 col-xs-12">
+          <p>
+            <span>成都冰鉴信息科技有限公司</span>
+          </p>
+          <p>
+            <span>+86-21-68592015</span>
+          </p>
+          <p>
+            <span>成都市高新区天府五街200号菁蓉国际广场3A栋1001号</span>
+          </p>
+          <p>
+            <span>邮编：610041</span>
+          </p>
+        </div>
+        <div class="col-md-7 col-sm-8 col-xs-12">
+          <div id="mapChengdu"></div>
+          <div class="map-info">
+            <div>
+              <div>成都冰鉴信息科技有限公司</div>
+              <div class="map-info-sub">成都市高新区天府五街200号菁蓉国际广场3A栋1001号</div>
+              <div class="map-go">去这里</div>
+            </div>
+          </div>
+          <div class="map-around">查看周边</div>
+        </div>
+      </div>
+      <div id="beijing" class="tab-pane fade in">
+        <div class="col-md-5 col-sm-4 col-xs-12">
+          <p>
+            <span>北京冰鉴信息科技有限公司</span>
+          </p>
+          <p>
+            <span>+86-10-64639161</span>
+          </p>
+          <p>
+            <span>北京市朝阳区东三环北路甲2号京信大厦1346室</span>
+          </p>
+          <p>
+            <span>邮编：100027</span>
+          </p>
+        </div>
+        <div class="col-md-7 col-sm-8 col-xs-12">
+          <div id="mapBeijing"></div>
+          <div class="map-info">
+            <div>
+              <div>北京冰鉴信息科技有限公司</div>
+              <div class="map-info-sub">北京市朝阳区东三环北路甲2号京信大厦1346室</div>
+              <div class="map-go">去这里</div>
+            </div>
+          </div>
+          <div class="map-around">查看周边</div>
+        </div>
+      </div>
+      <div id="shenzhen" class="tab-pane fade in">
+        <div class="col-md-5 col-sm-4 col-xs-12">
+          <p>
+            <span>上海冰鉴信息科技有限公司深圳分公司</span>
+          </p>
+          <p>
+            <span>+86-755-83232765</span>
+          </p>
+          <p>
+            <span>深圳市福田区深南大道6005号英龙展业大厦1718室</span>
+          </p>
+          <p>
+            <span>邮编：518040</span>
+          </p>
+        </div>
+        <div class="col-md-7 col-sm-8 col-xs-12">
+          <div id="mapShenzhen"></div>
+          <div class="map-info">
+            <div>
+              <div>上海冰鉴信息科技有限公司深圳分公司</div>
+              <div class="map-info-sub">深圳市福田区深南大道6005号英龙展业大厦1718室</div>
+              <div class="map-go">去这里</div>
+            </div>
+          </div>
+          <div class="map-around">查看周边</div>
+        </div>
+      </div>
+      <div id="changzhou" class="tab-pane fade in">
+        <div class="col-md-5 col-sm-4 col-xs-12">
+          <p>
+            <span>常州冰鉴信息科技有限公司</span>
+          </p>
+          <p>
+            <span>+86-519-86052015</span>
+          </p>
+          <p>
+            <span>常州市武进区常武中路18号常州科教城中科创业中心A-1-904室</span>
+          </p>
+          <p>
+            <span>邮编：213161</span>
+          </p>
+        </div>
+        <div class="col-md-7 col-sm-8 col-xs-12">
+          <div id="mapChangzhou"></div>
+          <div class="map-info">
+            <div>
+              <div>常州冰鉴信息科技有限公司</div>
+              <div class="map-info-sub">常州市武进区常武中路18号常州科教城中科创业中心A-1-904室</div>
+              <div class="map-go">去这里</div>
+            </div>
+          </div>
+          <div class="map-around">查看周边</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+{{ include '../template/footer.html' }} 
+{{/block}} 
+
+{{block 'script'}}
+<script src="/public/js/jquery-3.5.1.min.js"></script>
+<script src="/public/js/bootstrap.min.js"></script>
+<script src="/public/js/ice-product-scroll.js"></script>
+<script charset="utf-8" src="https://map.qq.com/api/js?v=2.exp&key=AP2BZ-CXLLG-U3YQ5-I756Q-4HQXE-C7FIZ"></script>
+<script src="/public/js/ljq-map.js"></script>
+{{/block}}

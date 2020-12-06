@@ -1,0 +1,16 @@
+@media (min-width: 767px) {
+  #nav {
+    position: relative;
+    border-bottom: 1px solid transparent;
+    margin-bottom: 0;
+  }
+}
+
+.ice-product-header1 {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.ice-product-header1 p {
+    color: rgba(255, 255, 255, 0.6) !important; 
+  max-width: 100% !important;
+}

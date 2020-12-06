@@ -1,0 +1,114 @@
+*{
+    margin: 0;padding: 0;
+}
+.ice-product-header1 {
+    background-image: url(../img/bk-news.jpg) !important;
+}
+
+.middle{
+    position: relative;
+    left: 5%;
+    top: 50px;
+    /* background-color: red; */
+    width: 100%;
+}
+.middle .t-002,.middle .t-003{
+    position: relative;
+    margin-top: 30px;
+    border: 1px solid white;
+}
+
+.middle .t-002:hover,.middle .t-003:hover{
+    border: 1px solid skyblue;
+}
+.t-002 .t-002-text,.t-003 .t-003-text{
+   font-size: 12px;
+   color: gray;
+}
+.t-002 .t-002-text p:nth-child(1),.t-003 .t-003-text p:nth-child(1){
+    font-size: 16px;
+}
+/* .t-002 .t-002-text ul,.t-003 .t-003-text ul{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 13px;
+} */
+
+
+footer{
+    margin-top: 100px;
+}
+@media (min-width: 1000px){
+    .t-001{
+        display: flex;
+        height: 430px;
+    }
+    .middle{
+        display: flex;
+        height: 200px;
+    }
+    .middle .t-002,.middle .t-003{
+        display: flex;
+        height: 200px;
+        width: 40%;
+    }
+    .t-002 .t-002-img,.t-003 .t-003-img{
+        width: 200px;
+        height: 150px;
+        margin-left: 50px;
+    }
+    .t-002 .t-002-img img,.t-003 .t-003-img img{
+        width: 200px;
+        height: 150px;
+    }
+    
+    .t-002 .t-002-text,.t-003 .t-003-text{
+        position: absolute;
+        left: 260px;
+        /* top: 30px; */
+    }
+}
+@media (max-width: 1000px) and (min-width: 760px){
+    .t-001{
+        display: flex;
+        height: 430px;
+    }
+    .middle{
+        position: relative;
+        left: 10%;
+        display: flex;
+        height: 400px;
+    }
+    .middle .t-002,.middle .t-003{
+        height: 400px;
+        width: 40%;
+    }
+    .t-002 .t-002-img,.t-003 .t-003-img{
+        width: 300px;
+        height: 200px;
+        /* margin-left: 50px; */
+    }
+    .t-002 .t-002-img img,.t-003 .t-003-img img{
+        width: 300px;
+        height: 200px;
+    }
+}
+@media (max-width: 760px){
+    .t-001{
+        height: 700px;
+    }
+    .t-002 .t-002-img,.t-003 .t-003-img{
+        width: 150px;
+        height: 100px;
+        margin-left: 50px;
+    }
+    .t-002 .t-002-img img,.t-003 .t-003-img img{
+        width: 150px;
+        height: 100px;
+    }
+    .middle .t-002,.middle .t-003{
+        display: flex;
+        width: 95%;
+        margin-top: 50px;
+    }
+}

@@ -1,0 +1,136 @@
+#nav {
+  background-color: transparent;
+}
+
+/* pc端 导航栏 */
+@media (min-width: 768px) {
+  .navbar-fixed-top {
+    height: 80px;
+    border-bottom: none;
+  }
+
+  .navbar-fixed-top .navbar-brand,
+  .navbar-fixed-top .navbar-nav {
+    margin-top: 15px;
+  }
+
+  #nav .navbar-brand .logo {
+    width: 189px;
+    height: 37px;
+    background: url(../img/logo-w.png) no-repeat center center / cover;
+  }
+
+  #nav .nav > li {
+    position: relative;
+  }
+
+  #nav .nav > li a {
+    color: #fff;
+    background-color: transparent;
+  }
+
+  #nav .nav > li::after {
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 0;
+    border-radius: 4px;
+    background-color: #fff;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 5px;
+    transition: 0.4s;
+  }
+
+  #nav .nav > li.active::after,
+  #nav .nav > li:hover::after {
+    width: 60px;
+  }
+
+  #nav .dropdown-menu a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .dropdown:hover > .dropdown-menu {
+    display: block;
+  }
+
+  .dropdown > .dropdown-toggle:active {
+    pointer-events: none;
+  }
+
+  #nav .dropdown-menu a:hover {
+    background-color: #00b4ed;
+  }
+
+  #nav li.active a {
+    background-color: transparent;
+  }
+
+  #nav .dropdown-menu {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+}
+
+/* 移动端导航栏 */
+@media (max-width: 768px) {
+  #nav {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+  #nav.nav-cd-bk {
+    background-color: #222;
+  }
+
+  #nav .navbar-nav {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  #nav .navbar-brand .logo {
+    width: 153px;
+    height: 30px;
+    background: url(../img/logo.png) no-repeat center center / cover;
+  }
+
+  .navbar-collapse .dropdown-menu {
+    padding: 0;
+    background-color: #000 !important;
+  }
+
+  #nav li[data-menuanchor].active > a {
+    color: #00b4ed;
+    background-color: transparent;
+  }
+
+  #nav .icon-bar {
+    transition: 0.4s;
+  }
+
+  #nav [aria-expanded='true'] .icon-bar:nth-child(1) {
+    transform: translate(0px, 6px) rotate(135deg);
+  }
+
+  #nav [aria-expanded='true'] .icon-bar:nth-child(2) {
+    transform: translate(0px, 0px) rotate(45deg);
+  }
+
+  #nav [aria-expanded='true'] .icon-bar:nth-child(3) {
+    transform: translateY(10px);
+    opacity: 0;
+  }
+
+  .navbar-fixed-bottom .navbar-collapse,
+  .navbar-fixed-top .navbar-collapse {
+    max-height: fit-content;
+  }
+
+  #nav .dropdown-menu li.active > a {
+    background-color: transparent;
+  }
+}
+
+#nav .dropdown-menu li.active > a {
+  color: #00b4ed;
+}
