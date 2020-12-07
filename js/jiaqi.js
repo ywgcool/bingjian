@@ -21,10 +21,10 @@ new Swiper('.section-1 .swiper-container', {
   pagination: {
     el: '.section-1 .swiper-pagination'
   },
-  // autoplay: {
-  //   delay: 3500,
-  //   disableOnInteraction: false
-  // },
+  autoplay: {
+    delay: 5500,
+    disableOnInteraction: false
+  },
   navigation: {
     nextEl: '.section-1 .swiper-button-next',
     prevEl: '.section-1 .swiper-button-prev'
