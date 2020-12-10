@@ -37,7 +37,7 @@ header {
     font-size: 30px;
   }
 }
-@media (max-width: 1919px) and (min-width: 768px) {
+@media (min-width: 768px) {
   .ice-product-header1 {
       height: 420px;
       padding-top: 198px;
