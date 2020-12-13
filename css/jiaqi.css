@@ -79,7 +79,7 @@ li {
   color: #fff;
   opacity: 0;
   transition: 1s;
-  transition-delay: 0.2s;
+  transition-delay: 0.6s;
 }
 
 .section-1 .swiper-slide.swiper-slide-active .swiper-content h2,
@@ -94,7 +94,7 @@ li {
   color: rgba(255, 255, 255, 0.7);
   opacity: 0;
   transition: 1s;
-  transition-delay: 0.6s;
+  transition-delay: 1.2s;
 }
 
 .section-1 .swiper-content a {
@@ -111,7 +111,7 @@ li {
   opacity: 0;
   transition: 1s;
   transition-property: opacity;
-  transition-delay: 1s;
+  transition-delay: 1.8s;
 }
 
 .section-1 .swiper-content a:hover {
@@ -162,6 +162,10 @@ li {
 .section .swiper-pagination-bullet.swiper-pagination-bullet-active {
   width: 40px;
   background-color: #fff;
+}
+
+.section-1 .swiper-content {
+  width: 80%;
 }
 
 .section-1 .swiper-slide-bck {
@@ -220,8 +224,42 @@ li {
     margin: 0 40px;
   }
 
-  .section-1 .swiper-content p {
+
+  .section-1 .swiper-slide .swiper-content h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+  }
+
+  .section-1 .swiper-slide .swiper-content h3 {
     font-size: 14px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .section-1 .swiper-content p {
+    font-size: 10px !important;
+    line-height: 15px !important;
+  }
+
+  .section-1 .swiper-content a {
+    width: 108px;
+    height: 36px;
+    border-radius: 18px;
+    line-height: 36px;
+    font-size: 14px;
+  }
+
+  .section-1 .swiper-slide-center img {
+    /* margin-top: -10px; */
+    margin-bottom: -80px;
+  }
+
+  .section-1 .swiper-content {
+    width: 80%;
+  }
+
+  .section-2 h2 {
+    text-align: center !important;
   }
 }
 
@@ -260,6 +298,11 @@ li {
 .section-2 p,
 .section-2 ul {
   color: #738690;
+}
+
+.section-2 li {
+  list-style: disc;
+  list-style-position: inside;
 }
 
 .section-2 .device-wrap {

@@ -21,6 +21,7 @@ new Swiper('.section-1 .swiper-container', {
   pagination: {
     el: '.section-1 .swiper-pagination'
   },
+  speed: 2000,
   autoplay: {
     delay: 5500,
     disableOnInteraction: false
