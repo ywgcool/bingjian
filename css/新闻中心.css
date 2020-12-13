@@ -7,7 +7,7 @@
 
 .middle{
     position: relative;
-    left: 5%;
+    /* left: 5%; */
     top: 50px;
     /* background-color: red; */
     width: 100%;
@@ -110,5 +110,8 @@ footer{
         display: flex;
         width: 95%;
         margin-top: 50px;
+    }
+    .middle .t-002 .t-002-text p:nth-child(3),.middle .t-003 .t-003-text p:nth-child(3){
+        display: none;
     }
 }

@@ -9,14 +9,14 @@
     background-color: whitesmoke;
     font-size: 18px;
     color: darkgray;
-    height: 300px;
+    /* height: 300px; */
     line-height: 30px;
 }
 .lead p{
     /* background-color: greenyellow; */
     margin: 0 auto;
     width: 90%;
-    height: 80px;
+    /* height: 80px; */
 }
 .lead p span{
     color: royalblue;
@@ -76,14 +76,14 @@
     background-color: whitesmoke;
     font-size: 18px;
     color: darkgray;
-    height:610px;
+    /* height:610px; */
     line-height: 25px;
 }
 .lead2 p{
     /* background-color: greenyellow; */
     margin: 0 auto;
     width: 90%;
-    height: 40px;
+    /* height: 40px; */
 }
 .lead2 p span{
     color: royalblue;
@@ -99,7 +99,6 @@
     margin-left: 5%;
     margin-bottom: 0;
 }
-
 
 
 
