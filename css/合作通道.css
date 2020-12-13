@@ -29,80 +29,195 @@
 #submit{
     color: white;
 }
-.choose-big>p {
-    position: absolute;
-    top: 50px;
-    width: 70%;
-    margin-left: 8%;
-    font-size: 17px;
-}
-.choose-big .choose-sm{
-    position: absolute;
-    top: 100px;
-    width: 80%;
-    /* background-color: red; */
-    margin-left: 8%;
-}
-.choose-big .choose-sm>span{
-    position: absolute;
-    top: 10px;
-    font-size: 18px;
-}
-#myTab{
-    margin-left: 40%;
-}
-#myTab li{
-    width: 30%;
-    height: 44px;
-    margin-left: 5px;
-    background-color: whitesmoke;
-}
-#myTab li:hover{
-    color: #00a0d0 ;
-}
-#myTab li a{
-    text-align: center;
-    color: gray;
-}
-#myTab .active a:nth-child(1){
-    background-color: #00a0d0;
-    color: white;
+
+
+@media (min-width: 768px){
+    .choose-big>p {
+        position: absolute;
+        top: 50px;
+        width: 70%;
+        margin-left: 8%;
+        font-size: 17px;
+    }
+    .choose-big .choose-sm{
+        position: absolute;
+        top: 100px;
+        width: 80%;
+        /* background-color: red; */
+        margin-left: 8%;
+    }
+    .choose-big .choose-sm>span{
+        position: absolute;
+        top: 10px;
+        font-size: 18px;
+    }
+    #myTab{
+        margin-left: 40%;
+    }
+    #myTab li{
+        width: 30%;
+        height: 44px;
+        margin-left: 5px;
+        background-color: whitesmoke;
+    }
+    #myTab li:hover{
+        color: #00a0d0 ;
+    }
+    #myTab li a{
+        text-align: center;
+        color: gray;
+    }
+    #myTab .active a:nth-child(1){
+        background-color: #00a0d0;
+        color: white;
+    }
+
+    #myTabContent{
+        position: relative;
+    }
+    #myTabContent div p{
+        margin-top: 30px;
+    }
+    #myTabContent div p span{
+        font-size: 18px;
+    }
+    #myTabContent div p input{
+        height: 40px;
+        width: 50%;
+        border: 1px solid gainsboro;
+    }
+    #myTabContent div p textarea{
+        border: 1px solid gainsboro;
+    }
+    #myTabContent div p input:focus,#myTabContent div p textarea:focus{
+        outline:none;
+        border: 1px solid #00a0d0;
+    }
+    #myTabContent div p input,#myTabContent div p textarea{
+        position: absolute;
+        left: 40%;
+    }
+    .choose-big button{
+        border: 0px;
+        position: absolute;
+        bottom: 10px;
+        left: 40%;
+        width: 25%;
+        height: 50px;
+        background-color: #00a0d0;
+        border-radius: 50px;
+    }
+
 }
 
-#myTabContent{
-    position: relative;
-}
-#myTabContent div p{
-    margin-top: 30px;
-}
-#myTabContent div p span{
-    font-size: 18px;
-}
-#myTabContent div p input{
-    height: 40px;
-    width: 50%;
-    border: 1px solid gainsboro;
-}
-#myTabContent div p textarea{
-    border: 1px solid gainsboro;
-}
-#myTabContent div p input:focus,#myTabContent div p textarea:focus{
-    outline:none;
-    border: 1px solid #00a0d0;
-}
-#myTabContent div p input,#myTabContent div p textarea{
-    position: absolute;
-    left: 40%;
-}
-.choose-big button{
-    border: 0px;
-    position: absolute;
-    bottom: 10px;
-    left: 40%;
-    width: 25%;
-    height: 50px;
-    background-color: #00a0d0;
-    border-radius: 50px;
+@media (max-width: 768px){
+    .choose-big{
+        font-size: 14px;
+        height: 750px;
+    }
+    .choose-big>p {
+        position: absolute;
+        top: 30px;
+        width: 90%;
+        margin-left: 8%;
+    }
+    .choose-big .choose-sm{
+        position: absolute;
+        top: 70px;
+        width: 80%;
+        /* background-color: red; */
+        margin-left: 8%;
+    }
+    .choose-big .choose-sm>span{
+        position: absolute;
+        top: 20px;
+    }
+    #myTab{
+        margin-top: 50px;
+    }
+    #myTab li{
+        font-size: 12px;
+        width: 30%;
+        height: 44px;
+        margin-left: 5px;
+        background-color: whitesmoke;
+    }
+    #myTab li:hover{
+        color: #00a0d0 ;
+    }
+    #myTab li a{
+        text-align: center;
+        color: gray;
+    }
+    #myTab .active a:nth-child(1){
+        background-color: #00a0d0;
+        color: white;
+    }
+    
+    #myTabContent{
+        position: relative;
+        /* background-color: red; */
+    }
+    #myTabContent div p{
+        margin-top: 35px;
+    }
+    #myTabContent div p input{
+        height: 40px;
+        width: 100%;
+        border: 1px solid gainsboro;
+    }
+    #myTabContent div p textarea{
+        border: 1px solid gainsboro;
+    }
+    #myTabContent div p input:focus,#myTabContent div p textarea:focus{
+        outline:none;
+        border: 1px solid #00a0d0;
+    }
+    #myTabContent div p input,#myTabContent div p textarea{
+        position: absolute;
+        left: 40%;
+    }
+    .choose-big button{
+        border: 0px;
+        position: absolute;
+        bottom: 10px;
+        left: 40%;
+        width: 25%;
+        height: 50px;
+        background-color: #00a0d0;
+        border-radius: 50px;
+    }
+    #myTabContent div p:nth-child(1) input{
+        position: relative;
+        left: 0;
+        top: 10px;
+    }
+    #myTabContent div p:nth-child(2) input{
+        position: relative;
+        left: 0;
+        top: 10px;
+    }
+    #myTabContent div p:nth-child(3) input{
+        position: relative;
+        left: 0;
+        top: 10px;
+    }
+    #myTabContent div p:nth-child(4) input{
+        position: relative;
+        left: 0;
+        top: 10px;
+    }
+    #myTabContent div p:nth-child(5) input{
+        position: relative;
+        left: 0;
+        top: 10px;
+    }
+    #myTabContent div p textarea{
+        width: 100%;
+        position: relative;
+        left: 0;
+        top: 10px;
+    }
 }
 
 
@@ -234,7 +349,6 @@
 .content>div:hover div{
     display: block;
 }
-
 
 
 
